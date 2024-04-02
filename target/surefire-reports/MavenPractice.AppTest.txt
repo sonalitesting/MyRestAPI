@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: MavenPractice.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! -- in MavenPractice.AppTest
+MavenPractice.AppTest -- Time elapsed: 0 s <<< ERROR!
+org.junit.runner.notification.StoppedByUserException
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:116)
+	at org.apache.maven.surefire.common.junit4.Notifier.fireTestStarted(Notifier.java:89)
+	at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.startTest(JUnit38ClassRunner.java:37)
+	at junit.framework.TestResult.startTest(TestResult.java:168)
+	at junit.framework.TestResult.run(TestResult.java:119)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
